@@ -1,1 +1,0 @@
-this is a modal using js
