@@ -1,0 +1,115 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    height: 100%;
+    background-color: goldenrod;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem ;
+    text-align: center;
+    font-family: 'Kenia', cursive;
+}
+
+.styling{
+    font-weight: 800;
+    color: rgb(91, 95, 70);
+}
+
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input_div .input{
+    padding: 0.5rem 1rem;/*0.5 rem top padding & 1 rem to side padding to the input box*/
+    height: 50px;
+    /* background: ; */
+    background-color: rgb(212, 157, 183);/*makes the input box of  this color*/
+    outline: none;
+    width: 450px;/*makes the widtth of the text box of 450px*/
+    font-size: 1rem;/*makes the text inside the input of 1 rem*/
+    margin: 0.25rem;
+    border: none;
+    border-radius: 25px;
+    /* border-bottom: white; */
+}
+
+.addButton{
+    height:50px;
+    width:50px;
+    border-radius: 25px;/*makes the corners rounded*/
+    outline: none;
+    border: none;
+    background-color: black;/*makes the background of that border black*/
+    color: white;/*makes the plus button white*/
+    margin: 0.25rem;
+    cursor: pointer;
+}
+
+.addButton:hover{
+    opacity:  0.7;
+}
+
+.container{
+    display: flex;
+    flex-direction: column-reverse;/*makes the new input get inputted in the beginning */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;/*gives the space in between the search bar and input area*/
+}
+
+.itemm{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #fff;
+}
+
+.item_input{
+    background: none;/*makes the background of the flex box of already inputted items same as background color*/
+    outline: none;
+    color: #fff;
+    border: none;
+    width: 350px;
+    font-size: 1.4rem;
+}
+
+/* .text{
+    font-family: 'Lobster', cursive;
+font-family: 'Lobster Two', cursive;
+} */
+.editButton{
+    font-size: 1.4rem;/*makes the text edit of  that size*/
+    margin: 0 0.75rem;/*the sideways distance between edit and remove button*/
+    font-family: 'Kenia', cursive;
+    background: none;/*makes the background of  edit button same as backgground color*/
+    outline: none;
+    color: lime;
+    border:none;
+    cursor: pointer;
+}
+
+.removeButton{
+    font-size: 1.4rem;/*makes the text edit of  that size*/
+    margin: 0 0.75rem;/*the sideways distance between edit and remove button*/
+    font-family: 'Kenia', cursive;
+    background: none;/*makes the background of  edit button same as backgground color*/
+    outline: none;
+    color: #E00;
+    border:none;
+    cursor: pointer;
+}
+
+
+
+
+
