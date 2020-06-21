@@ -1,1 +1,0 @@
-the website will ask for your permission for location after allowing that your location, temperature and description.
