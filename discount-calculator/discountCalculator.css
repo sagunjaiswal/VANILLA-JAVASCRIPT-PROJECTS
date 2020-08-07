@@ -1,0 +1,28 @@
+*{
+
+}
+body{
+    background-color: burlywood;
+    
+}
+
+#title{
+    font-size: 50px;
+    font-weight: 500;
+    font-style: bolder;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+
+.calculatorBody {
+  background-color: gray;
+  min-height: 500px;
+  width: 600px;
+  margin: 40px auto;/*horizontally centered as it is auto*/
+  flex-wrap: wrap;
+    flex-direction: column;
+}
+.box{
+    height: 22% 100%;
+    
+}

@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="stylesheet" href="discountCalculator.css">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p id="title">Discount Calculator</p>
+    <div class="calculatorBody">
+        <div class="box">
+            Original Price<span><input min="1" max="100000000" type ="number" id="op" onchange="compute()"/></span><!--op for original price and dp for discount percentage, fp for final price-->
+        </div>
+        <div class="box">
+            Discount  (% off)<span><input min="1" max="100" step=".1" type ="number" id="dp" onchange="compute()"></span>
+        </div>
+        <div class ="box">
+            Final price<span id="fp"></span>
+        </div>
+        <div class="box">
+            You save <span id="result"></span>
+        </div>
+    </div>
+    <script src="discountCalculator.js"></script>
+</body>
+</html>
